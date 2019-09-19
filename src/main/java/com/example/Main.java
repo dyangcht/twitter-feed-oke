@@ -35,7 +35,7 @@ public class Main {
 	System.out.println("Constructing URI: Hostname: " + System.getenv("HOSTNAME") + ", PORT: " + System.getenv("PORT"));
     	final Optional<String> port = Optional.ofNullable(System.getenv("PORT"));
     	final Optional<String> hostName = Optional.ofNullable(System.getenv("HOSTNAME"));
-		BASE_URI = "http://" + hostName.orElse("localhost") + ":" + port.orElse("8080") + "/";
+		BASE_URI = "http://" + hostName.orElse("localhost") + ":" + port.orElse("8085") + "/";
 
         // create a resource config that scans for JAX-RS resources and providers
         // in com.example package
