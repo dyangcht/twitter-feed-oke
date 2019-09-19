@@ -61,5 +61,5 @@ deploy-to-cluster:
       insecure-skip-tls-verify: true
       command: apply -f kubernetes.yml
 
-# 2019/9/19
+# 2019/9/19 
 
