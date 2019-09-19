@@ -62,4 +62,4 @@ deploy-to-cluster:
       command: apply -f kubernetes.yml
 
 # 2019/9/19
-# update pods
+
